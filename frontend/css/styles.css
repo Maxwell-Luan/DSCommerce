@@ -36,7 +36,8 @@ main {
 }
 
 /* ---------------------------------------------*/
-/* generix styles */
+/* generic styles */
+
 .dsc-container {
   width: 100%;
   max-width: 960px;
@@ -49,6 +50,12 @@ main {
 
 .dsc-mt20 {
   margin-top: 20px;
+}
+
+.dsc-section-title{
+  text-align: center;
+  color: var(--dsc-color-font-primary);
+  font-size: 16px;
 }
 
 /* ---------------------------------------------*/
@@ -257,6 +264,22 @@ a:hover {
   resize: none;
   height: 128px;
   padding-top: 10px;
+}
+
+/* ---------------------------------------------*/
+/* table styles */
+.dsc-table{
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.dsc-table thead{
+  background-color: var(--dsc-color-card-bg);
+}
+
+.dsc-table tbody{
+  background-color: var(--dsc-color-card-bg);
 }
 
 @media (min-width: 576px) {
