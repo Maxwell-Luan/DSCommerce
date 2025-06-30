@@ -52,10 +52,14 @@ main {
   margin-top: 20px;
 }
 
-.dsc-section-title{
+.dsc-section-title {
   text-align: center;
   color: var(--dsc-color-font-primary);
   font-size: 16px;
+}
+
+.dsc-txt-left {
+  text-align: left;
 }
 
 /* ---------------------------------------------*/
@@ -268,18 +272,29 @@ a:hover {
 
 /* ---------------------------------------------*/
 /* table styles */
-.dsc-table{
+.dsc-table {
   width: 100%;
   border-spacing: 0;
   border-collapse: collapse;
 }
 
-.dsc-table thead{
+.dsc-table thead {
   background-color: var(--dsc-color-card-bg);
+  color: var(--dsc-color-font-primary);
+  height: 55px;
+  font-size: 14px;
 }
 
-.dsc-table tbody{
+.dsc-table tbody {
   background-color: var(--dsc-color-card-bg);
+  color: var(--dsc-color-font-primary);
+  font-size: 12px;
+  text-align: center;
+}
+
+.dsc-table tbody tr {
+  border-top: 1px solid var(--dsc-color-card-border);
+  height: 70px;
 }
 
 @media (min-width: 576px) {
